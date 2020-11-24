@@ -1,0 +1,53 @@
+.box-photo{
+    width: 25vw;
+    height: 20vw;
+    max-width: 15rem;
+    max-height: 10rem;
+    min-width: 10rem;
+    min-height: 7rem;
+    transform: translate(0, 1rem);
+}
+.box{
+    display: flex;
+    width: 46vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 31vw;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    cursor: pointer;
+    max-width: 70rem;
+    max-height: 14rem;
+    min-width: 34rem;
+}
+.title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 30vw;
+    max-width: 55rem;
+    min-width: 22rem;
+}
+.title:hover{
+    color: rgba(54,54,54,0.56);
+}
+.desc{
+    transform: translate(0px, 1rem);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    max-width: 50rem;
+    min-width: 22rem;
+}
+.comment{
+    transform: translate(0px, 2rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 30vw;
+    max-width: 55rem;
+    min-width: 22rem;
+}

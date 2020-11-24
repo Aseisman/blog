@@ -1,0 +1,41 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 6rem;
+    border-bottom: 0.1rem solid rgb(238, 238, 238);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+.nav-img-box{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.nav-img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.nav-bar ul{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    min-width: 15rem;
+}
+.nav-bar ul li{
+    width: 5rem;
+    text-align: center;
+    min-width: 5rem;
+}
+.li-active{
+    padding-bottom: 1rem;
+    border-bottom: 3px solid rgb(64, 158, 255);
+}
+.li-active a{
+    color:rgb(64, 158, 255);
+    font-weight: 500;
+
+}
